@@ -89,7 +89,7 @@ def menu():
     elif(tarea=='9'):
         sys.exit()
     else:
-        print('Tarea no valida')
+        print('Tarea no es valida')
 
 def cargar_cliente():
     cli=ControladorCliente()

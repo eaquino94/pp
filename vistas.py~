@@ -90,6 +90,7 @@ def menu():
         sys.exit()
     else:
         print('Tarea no valida')
+
 def cargar_cliente():
     cli=ControladorCliente()
     cli.cargar_cliente(cl1)
